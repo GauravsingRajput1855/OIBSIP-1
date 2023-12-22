@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Consultancy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(4, 2, 26);
+            color: rgb(250, 247, 247);
+        }
+
+        nav{
+            display: flex;
+            position: sticky;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(3, 37, 67);
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            list-style: none;
+            margin: 0 25px;
+        }
+    
+        
+        .btn{
+            background-color: rgb(3, 37, 67);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            margin-top: 50px;
+        }
+
+        .left {
+            font-size: 1.9rem;
+        }
+
+        .one {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .l {
+            color: white;
+            font-size: 2.5rem;
+
+        }
+
+        .r img {
+            width: 102%;
+            height: 50;
+            margin: 0px;
+            margin-top: -30px;
+
+        }
+
+        .one>div {
+            width: 30%;
+        }
+
+        .blue {
+            color: rgb(30, 119, 174);
+            box-shadow: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: darkturquoise;
+            font-size: 1.1rem;
+        }
+
+        #element {
+            color: rgb(30, 119, 174);
+            ;
+        }
+
+        .two {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            height: 1.0px;
+            margin: 59px 27px;
+            background-color: rgb(55, 22, 87);
+        }
+
+        /*  Section Two Css */
+        .leftside,
+        .rightside {
+            height: 60vh;
+            width: 100%;
+        }
+
+        #hh1 {
+            margin-left: 225px;
+            font-size: 40px;
+            margin-bottom: 59px;
+        }
+
+        .dd {
+            margin-left: 201px;
+            font-size: 25px;
+        }
+
+        .r2 img {
+            width: 92%;
+            height: 50;
+            margin: 0px;
+            margin-top: -50px;
+        }
+
+        /* Section Three */
+        .grey {
+            color: purple;
+        }
+
+        .three {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .three h1 {
+            font-size: 1.9rem;
+        }
+
+        .three .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 58px 0;
+            display: flex;
+        }
+
+        .three .ver {
+            height: 93px;
+            width: 2px;
+            background-color: white;
+            margin: 0px 101px;
+        }
+
+        .vertit {
+            position: relative;
+            top: 68px;
+            width: 157px;
+
+        }
+
+        .verdesc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        .imgtp {
+            width: 23px;
+            width: 23px;
+            position: relative;
+            top: -36px;
+            left: -12px;
+        }
+        .vertit2{
+            position: relative;
+            top: 90px;
+            width: 157px;
+
+        }
+        .verdesc2{
+            position: relative;
+            top: 109px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        .vertit3{
+            position: relative;
+            top: 90px;
+            width: 157px;
+
+        }
+        .verdesc3{
+            position: relative;
+            top: 109px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        .vertit4{
+            position: relative;
+            top: 90px;
+            width: 157px;
+
+        }
+        .verdesc4{
+            position: relative;
+            top: 109px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        .vertit5{
+            position: relative;
+            top: 90px;
+            width: 157px;
+
+        }
+        .verdesc5{
+            position: relative;
+            top: 109px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        .imgtp2{
+            width: 23px;
+            width: 23px;
+            position: relative;
+            top: -36px;
+            left: -12px;
+
+        }
+        .imgtp3{
+            width: 23px;
+            width: 23px;
+            position: relative;
+            top: -36px;
+            left: -12px;
+
+        }
+        .imgtp4{
+            width: 23px;
+            width: 23px;
+            position: relative;
+            top: -36px;
+            left: -12px;
+
+        }
+        .imgtp5{
+            width: 23px;
+            width: 23px;
+            position: relative;
+            top: -36px;
+            left: -12px;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav2">
+            <div class="left"> Gaurav Consultancy</div>
+            <div class="right" id="nav1">
+                <ul>
+                    <li><a href="#nav1">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="#two1">Services</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="#box1">Work Experiance</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="one">
+            <div class="l"> Hello My Name Is <span class="blue">Gaurav</span>
+                <div id="d1">I Am A Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Git Hub</button>
+                  </div>
+            </div>
+            <div class="r"> <img src="dev img 1.png" alt=""></div>
+
+        </section>
+        <hr>
+        <section class="two" id="two1">
+            <div class="row no-gutters">
+
+                <div class="col no-gutters">
+
+                    <div class="leftside d-flex justify-content-center align-items-center">
+                        <div class="r2"> <img src="img2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col no-gutters">
+                    <div class="rightside  d-flex justify-content-center align-items-center ">
+                        <div class="row">
+                            <h2 id="hh1">Our Services </h2>
+                            <br>
+                            <h3 class="dd"> 1] Lorem ipsum dolor sit amet.</h3>
+                            <h3 class="dd"> 2] Lorem ipsum dolor sit amet.</h3>
+                            <h3 class="dd"> 3] Lorem ipsum dolor sit amet.</h3>
+                            <h3 class="dd"> 4] Lorem ipsum dolor sit amet.</h3>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="three ">
+            <span class="grey"> What I Done In Past</span>
+            <h1>My Experiance </h1>
+
+            <div class="box" id="box1">
+                <div class="ver">
+                    <img class="imgtp" src="html png.png" alt="">
+                    <div class="vertit">Html Developer(2002-2004)</div>
+                    <div class="verdesc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore facere ipsa
+                        voluptates eum eaque laboriosam ea. Molestias corrupti, quisquam repellat nihil dolorem esse.
+                    </div>
+                </div>
+                <div class="ver">
+                    <img class="imgtp2" src="python.png" alt="">
+                    <div class="vertit2">Python Developer(2002-2004)</div>
+                    <div class="verdesc2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore facere ipsa
+                        voluptates eum eaque laboriosam ea. Molestias corrupti, quisquam repellat nihil dolorem esse.
+                    </div>
+                </div>
+                <div class="ver">
+                    <img class="imgtp3" src="rubee.png" alt="">
+                    <div class="vertit3">RUBEE Developer(2002-2004)</div>
+                    <div class="verdesc3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore facere ipsa
+                        voluptates eum eaque laboriosam ea. Molestias corrupti, quisquam repellat nihil dolorem esse.
+                    </div>
+                </div>
+                <div class="ver">
+                    <img class="imgtp4" src="node png.png" alt="">
+                    <div class="vertit4">NOde Js Developer(2002-2004)</div>
+                    <div class="verdesc4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore facere ipsa
+                        voluptates eum eaque laboriosam ea. Molestias corrupti, quisquam repellat nihil dolorem esse.
+                    </div>
+                </div>
+                <div class="ver">
+                    <img class="imgtp5" src="java png.png" alt="">
+                    <div class="vertit5">Java Developer(2002-2004)</div>
+                    <div class="verdesc5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore facere ipsa
+                        voluptates eum eaque laboriosam ea. Molestias corrupti, quisquam repellat nihil dolorem esse.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['And A Civil Engineer ', 'Aloso A Video Editer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
